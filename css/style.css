@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+.banner{width: 100%; min-height: 500px }
+
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:48%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+	height: 12px; }
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color: black;
+      text-decoration: none; }
+
+header{width: 100%; height: 70px; display: flex; font-family:"Poppins", sans-serif}
+main{font-family: "Poppins", sans-serif}
+.logo{padding-top: 16px}
+.social{padding-top: 16px; }
+.height-s{height: 70%}
+.menu{padding-top: 16px}
+.menu ul{margin: 0; padding: 0; list-style: none; display: flex}
+.menu ul li a{padding: 10px 20px; text-decoration: none; color: #5C5C5C; border-radius: 20px}
+.menu ul li a:hover{background-color: darkred; color: white}
+main{width: 100%; min-height: 800px}
+.gach-chan{border-bottom: 3px solid darkred}
+.text-do{color: darkred}
+.vien-do{border: 1px solid darkred; position: relative; overflow: hidden}
+.icon{position: absolute; width: 80%; height: 40px; left: 10%; top: -12%; display: flex; justify-content: space-around; transition: all 1s}
+.icon a{width: 40px; height: 40px; background-color: #dbdbdb; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: darkred}
+.icon a:hover{background-color: darkred; color: white}
+.vien-do:hover .icon{top: 40%}
+.sp{padding: 0 20px}
+.vien-do:hover img{opacity: 50%}
+#product{width: 100%; min-height: 500px; background: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center}
+.vien-trang{border: 2px solid darkred; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 150px}
+.vien-trang a{text-decoration: none; color: darkred}
+.vien-trang a:hover{color: white}
+.pt-30{padding-top: 20px}
+.content{padding: 80px 20px; height: 300px}
+.hinh{height: 300px}
+#contact{width: 100%; min-height: 500px; background: url("../images/Banner2.png"); background-repeat: no-repeat; background-position: center center; background-size: cover}
+.bong{border: 1px solid gray; width: 100%; min-height: 375px; box-shadow: 2px 2px 3px gray; border-radius: 10px; op
+40%}
+.form-control{ padding: 10px; margin: 6px 20px; width: 93%}
+.submit{padding: 10px; margin: 10px 20px; width: 93%; background-color: darkred; border: 2px solid darkred; color: white}
+.submit:hover{background-color:black; color: white; border: 2px solid black}
+section{font-family: "Poppins", sans-serif}
+.padding{margin-top: 30px}
+
+
+
